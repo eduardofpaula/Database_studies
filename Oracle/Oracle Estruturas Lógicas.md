@@ -12,13 +12,14 @@
 
 ![alt text](image.png)
 
-### OQUE SIGNIFICA CRUD E COMANDOS DDL E DML?
+### OQUE SIGNIFICA CRUD E COMANDOS DDL DML DCL?
 
 - CRUD: Create, Read, Update, Delete
 São operações básicas de um sistema de banco de dados Oracle
 - DDL: Data Definition Language (CREATE, ALTER, DROP, TRUNCATE)
 São comandos SQL para definição de dados no banco de dados Oracle
 - DML: Data Manipulation Language (SELECT, INSERT, UPDATE, DELETE)
+- DCL: Data Control Language (GRANT, REVOKE)
 São comandos SQL para manipulação de dados no banco de dados Oracle
 
 ## ESTRTURAS FISICAS = Datafiles, Controlfiles, Redo Log FileS, Archive Log Files, ASM, Trace Files e PSWD

@@ -1,16 +1,26 @@
-# Sintaxe de comandos Oracle Database ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+# Sintaxe de comandos Oracle Database DCL    ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 
-- Mostrar usuario
+
+- Conceder permissão
 ```sql
-SHOW USER;
+GRANT permission ON table_name TO user;
 ```
 
-- Diferentes Selects
+- Revogar permissão
 ```sql
-SELECT * FROM table_name;
-SELECT column_name FROM table_name;
-SELECT column_name FROM table_name WHERE condition;
-SELECT column_name FROM table_name WHERE condition ORDER BY column_name;
+REVOKE permission ON table_name FROM user;
+```
+
+# Sintaxe de comandos Oracle Database DDL    ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+
+- Criar banco de dados
+```sql
+CREATE DATABASE database_name;
+```
+
+- Deletar banco de dados
+```sql
+DROP DATABASE database_name;
 ```
 
 - Criar tabela
@@ -35,6 +45,15 @@ ALTER TABLE table_name MODIFY column_name datatype;
 DROP TABLE table_name;
 ```
 
+# Sintaxe de comandos Oracle Database DML    ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+
+- Selecionar dados
+```sql
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+```
+
 - Inserir dados
 ```sql
 INSERT INTO table_name (column1, column2, column3, ...)
@@ -50,8 +69,6 @@ WHERE condition;
 
 - Deletar dados
 ```sql
-DELETE FROM table_name WHERE condition;
+DELETE FROM table_name
+WHERE condition;
 ```
-
-
-
